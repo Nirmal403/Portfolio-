@@ -29,9 +29,9 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
+        {/* <MobileMenuLink to="playground" onClick={toggle}>
           Playground
-        </MobileMenuLink>
+        </MobileMenuLink> */}
         <MobileButton
           href="mailto:nirmalcool414@gmail.com "
           target="_blank"
@@ -59,14 +59,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gm
+          Gmail
         </MobileSocial>
         <MobileSocial
           href="https://github.com/Nirmal403"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gh
+          Git
         </MobileSocial>
 
         <MobileSocial
@@ -74,7 +74,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          ln
+          LinkedIn
         </MobileSocial>
       </MobileSocials>
       {/* <MobileQuote>travaille pour ça</MobileQuote> */}
