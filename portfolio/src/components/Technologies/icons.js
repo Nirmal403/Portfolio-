@@ -13,6 +13,7 @@ import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 // import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
+import chakra from "../../assets/technologies/chakra.svg";
 
 export const iconsData = [
   {
@@ -35,11 +36,11 @@ export const iconsData = [
     icon: reactjs,
     name: "React JS",
   },
-  {
-    id: 5,
-    icon: styledComponents,
-    name: "Styled Components",
-  },
+  // {
+  //   id: 5,
+  //   icon: styledComponents,
+  //   name: "Styled Components",
+  // },
 
   // {
   //   id: 6,
@@ -90,5 +91,10 @@ export const iconsData = [
     id: 15,
     icon: vscode,
     name: "Visual Studio Code",
+  },
+  {
+    id: 16,
+    icon: chakra,
+    name: "Chakra ui",
   },
 ];
