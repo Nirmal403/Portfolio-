@@ -96,7 +96,7 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            Playground
+           Resume
           </StyledNavLinks>
         </NavList> */}
       </NavMenuList>

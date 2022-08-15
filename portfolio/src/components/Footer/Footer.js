@@ -60,13 +60,13 @@ const Footer = () => {
             >
               LinkedIn
             </ContactLink>
-            <ContactLink
+            {/* <ContactLink
               // href=""
               target="_blank"
               rel="noopener noreferrer"
             >
               Instagram
-            </ContactLink>
+            </ContactLink> */}
           </FooterSocials>
         </FooterContact>
         <FooterContact>

@@ -2,18 +2,15 @@ import html5 from "../../assets/technologies/html.svg";
 import css3 from "../../assets/technologies/css.svg";
 import javascript from "../../assets/technologies/javascript.svg";
 import reactjs from "../../assets/technologies/react.svg";
-import styledComponents from "../../assets/technologies/styled-components.svg";
+// import styledComponents from "../../assets/technologies/styled-components.svg";
 // import tailwindcss from "../../assets/technologies/tailwindcss.svg";
 import bootstrap from "../../assets/technologies/bootstrap.svg";
-import sass from "../../assets/technologies/sass.svg";
 import npm from "../../assets/technologies/npm.svg";
-import laravel from "../../assets/technologies/laravel.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 // import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
-import chakra from "../../assets/technologies/chakra.svg";
 
 export const iconsData = [
   {
@@ -92,9 +89,9 @@ export const iconsData = [
     icon: vscode,
     name: "Visual Studio Code",
   },
-  {
-    id: 16,
-    icon: chakra,
-    name: "Chakra ui",
-  },
+  // {
+  //   id: 16,
+  //   icon: chakra,
+  //   name: "Chakra ui",
+  // },
 ];

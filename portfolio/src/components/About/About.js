@@ -12,7 +12,7 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "../../assets/my-image.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/Nirmal_Resume.pdf";
 
 const About = () => {
   return (
@@ -34,7 +34,7 @@ const About = () => {
           <StyledParagraph>
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, Redux,
+            my projects are HTML, CSS, JavaScript, React Js, Redux,
             Bootstrap, Git and GitHub, Chakra UI and VS Code.
           </StyledParagraph>
           <StyledParagraph>

@@ -76,7 +76,7 @@ const Home = () => {
           have a great
           <span>
             {/* {hour < 12 ? " morning" : hour < 18 ? " afternoon" : " evening"} */}
-            {hour < 12 ? " morning" : hour < 15 ? " afternoon" :  " evening" }
+            {hour < 12 ? " morning" : hour < 15 ? " afternoon" :  " evening"}
           </span>
           .
         </Greeting>
