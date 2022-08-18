@@ -74,11 +74,11 @@ export const iconsData = [
     icon: github,
     name: "GitHub",
   },
-  {
-    id: 13,
-    icon: figma,
-    name: "Figma",
-  },
+  // {
+  //   id: 13,
+  //   icon: figma,
+  //   name: "Figma",
+  // },
   // {
   //   id: 14,
   //   icon: adobexd,

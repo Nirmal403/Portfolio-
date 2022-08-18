@@ -17,7 +17,7 @@ function App() {
     "color: white; font-weight: 500; font-size:16px"
   );
   console.log(
-    "%cYou can check the code here https://github.com/monciego/portfolio",
+    "%cYou can check the code here https://github.com/Nirmal403",
     "color: white; font-weight: 500; font-size:16px"
   );
   return (
@@ -27,8 +27,9 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
-          <Projects />
           <About />
+          <Projects />
+         
           <ParallaxComponent />
           <Technologies />
           {/* <Playground /> */}
