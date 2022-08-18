@@ -18,7 +18,7 @@ const About = () => {
   return (
     <StyledAbout id="about">
       <SectionHeading dark="true" mb="3rem">
-        <SectionTitle dark="true" number="02">
+        <SectionTitle dark="true" number="01">
           About Me
         </SectionTitle>
       </SectionHeading>

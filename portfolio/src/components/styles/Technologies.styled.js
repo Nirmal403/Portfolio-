@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const TechnologiesContainer = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.light};
+  // background-color: ${({ theme }) => theme.backgroundColor.dark};
+  // color: ${({ theme }) => theme.color.light};
+  background-color: ${({ theme }) => theme.backgroundColor.light};
+  color: ${({ theme }) => theme.color.dark};
 `;
 
 export const TechnologiesHeader = styled.h2`

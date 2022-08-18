@@ -2,8 +2,10 @@ import styled from "styled-components";
 import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 
 export const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.tertiaryLight};
+  // background-color: ${({ theme }) => theme.backgroundColor.dark};
+  // color: ${({ theme }) => theme.color.tertiaryLight};
+  background-color: ${({ theme }) => theme.backgroundColor.tertiaryLight};
+  color: ${({ theme }) => theme.color.dark};
 `;
 
 export const FooterSmallTitleWrapper = styled.div`
@@ -50,7 +52,8 @@ export const FooterBigLink = styled.a`
   position: relative;
   width: 100%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.color.secondaryLight};
+  // color: ${({ theme }) => theme.color.secondaryLight};
+  color: ${({ theme }) => theme.color.dark};
 
   &::after {
     content: "";
@@ -61,7 +64,8 @@ export const FooterBigLink = styled.a`
     bottom: -1rem;
     height: 2px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    // background: ${({ theme }) => theme.backgroundColor.light};
+    background: ${({ theme }) => theme.backgroundColor.orange};
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -155,7 +159,8 @@ export const ContactLink = styled.a`
   position: relative;
 
   &:hover {
-    color: ${({ theme }) => theme.color.light};
+    // color: ${({ theme }) => theme.color.light};
+    color: ${({ theme }) => theme.color.dark};
   }
 
   &::after {
@@ -167,7 +172,8 @@ export const ContactLink = styled.a`
     bottom: 0;
     height: 1px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    // background: ${({ theme }) => theme.backgroundColor.light};
+    background: ${({ theme }) => theme.backgroundColor.orange};
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -196,14 +202,16 @@ export const FooterLine = styled.hr`
   margin-top: 3rem;
   border: none;
   height: 0.2px;
-  background: rgba(255, 255, 255, 0.1);
+  // background: rgba(255, 255, 255, 0.1);
+  background: lightGray;
   position: relative;
 `;
 
 export const ArrowToTop = styled.div`
   height: 60px;
   width: 60px;
-  background: rgba(255, 255, 255, 0.05);
+  // background: rgba(255, 255, 255, 0.05);
+  background: rgb(253,69,121);
   background-image: url(${arrowUp});
   background-repeat: no-repeat;
   background-position: center center;
@@ -214,7 +222,8 @@ export const ArrowToTop = styled.div`
   cursor: pointer;
 
   &:hover {
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    // background: ${({ theme }) => theme.backgroundColor.orange};
+    background: ${({ theme }) => theme.backgroundColor.dark};
     background-image: url(${arrowUp});
     background-repeat: no-repeat;
     background-position: center center;
@@ -226,7 +235,8 @@ export const ArrowToTop = styled.div`
     display: block;
     width: 1px;
     height: 4rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    // background-color: rgba(255, 255, 255, 0.05);
+    background-color: lightGray;
     position: absolute;
     top: -6rem;
     left: 50%;
@@ -240,7 +250,8 @@ export const ArrowToTop = styled.div`
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: rgba(255, 255, 255, 0.15);
+    // color: rgba(255, 255, 255, 0.15);
+    color: lightGray;
     transition: all 0.5s;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);

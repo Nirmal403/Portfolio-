@@ -77,7 +77,8 @@ export const StyledNavLinks = styled(NavLink)`
   }
 
   &.active {
-    color: ${({ theme }) => theme.color.light};
+    // color: ${({ theme }) => theme.color.light};
+    color: ${({ theme }) => theme.color.lightGray};
   }
 
   &.active::after {

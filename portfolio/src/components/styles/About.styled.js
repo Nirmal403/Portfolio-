@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
+  // background-color: ${({ theme }) => theme.backgroundColor.dark};
+  // color: ${({ theme }) => theme.color.lightGray};
+  background-color: ${({ theme }) => theme.backgroundColor.orange};
   color: ${({ theme }) => theme.color.lightGray};
 `;
 
@@ -9,6 +11,7 @@ export const AboutContent = styled.div`
   display: flex;
   gap: 5%;
   margin-top: 6.5rem;
+
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
@@ -27,7 +30,8 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     top: -1rem;
     left: -1rem;
-    background: #fcdf3e;
+    // background: #fcdf3e;
+    background: white;
     width: 100%;
     height: 100%;
     border-radius: 1px;
@@ -38,6 +42,7 @@ export const AboutImageContainer = styled.div`
     content: "";
     position: absolute;
     inset: 0 0 0 0;
+    // background: rgb(13, 14, 14, 0.199);
     background: rgb(13, 14, 14, 0.199);
     z-index: 2;
   }
@@ -88,6 +93,7 @@ export const Resume = styled.div`
     height: 1px;
     border-radius: 5px;
     background: ${({ theme }) => theme.backgroundColor.light};
+    // background: ${({ theme }) => theme.backgroundColor.dark};
     width: 100%;
     transition: transform 0.3s ease;
     transform: scaleX(0);

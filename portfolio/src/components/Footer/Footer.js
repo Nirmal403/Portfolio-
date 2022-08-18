@@ -60,13 +60,13 @@ const Footer = () => {
             >
               LinkedIn
             </ContactLink>
-            {/* <ContactLink
-              // href=""
+            <ContactLink
+              href="https://medium.com/me/stories/public"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
-            </ContactLink> */}
+              Blogs
+            </ContactLink>
           </FooterSocials>
         </FooterContact>
         <FooterContact>

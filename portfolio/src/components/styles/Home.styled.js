@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHome = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.lightGray};
+  // background-color: ${({ theme }) => theme.backgroundColor.dark};
+  // color: ${({ theme }) => theme.color.lightGray};
+
+  background-color: ${({ theme }) => theme.backgroundColor.lightGray};
+  color: ${({ theme }) => theme.color.dark};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +21,8 @@ export const StyledHome = styled.section`
 export const Name = styled.h2`
   font-size: 2.1875rem;
   position: relative;
-  color: #fff9f9;
+  // color: #fff9f9;
+  color: black;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 2.1875rem;
@@ -33,7 +37,8 @@ export const Title = styled.h1`
   font-size: 3.375rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem 0;
-  color: #f7f7f7;
+  // color: #f7f7f7;
+  color: black;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     text-align: center;
@@ -88,7 +93,8 @@ export const Social = styled.a`
   cursor: pointer;
   transition: 0.3s ease;
   position: relative;
-  color: ${({ theme }) => theme.color.light};
+  // color: ${({ theme }) => theme.color.light};
+  color: ${({ theme }) => theme.color.dark};
 
   &:hover {
     transform: translateY(-0.3125rem);

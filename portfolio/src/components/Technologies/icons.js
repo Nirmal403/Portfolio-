@@ -10,7 +10,9 @@ import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 // import adobexd from "../../assets/technologies/adobexd.svg";
-import vscode from "../../assets/technologies/visual-studio-code.svg";
+import vscode from  "../../assets/technologies/visual-studio-code.svg";
+import redux from "../../assets/technologies/redux-icon.svg";
+// import chakra from "../../as/sets/technologies/chakra-ui.svg";
 
 export const iconsData = [
   {
@@ -32,6 +34,11 @@ export const iconsData = [
     id: 4,
     icon: reactjs,
     name: "React JS",
+  },
+  {
+    id: 12,
+    icon: redux,
+    name: "Redux",
   },
   // {
   //   id: 5,
@@ -69,11 +76,7 @@ export const iconsData = [
     icon: git,
     name: "Git",
   },
-  {
-    id: 12,
-    icon: github,
-    name: "GitHub",
-  },
+  
   // {
   //   id: 13,
   //   icon: figma,

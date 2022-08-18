@@ -13,7 +13,8 @@ export const StyledParagraph = styled.p`
 `;
 
 export const StyledLink = styled.a`
-  color: ${({ theme }) => theme.color.link};
+  // color: ${({ theme }) => theme.color.link};
+  color: #fd4579;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: block;
