@@ -21,8 +21,8 @@ export const AboutContent = styled.div`
 
 export const AboutImageContainer = styled.div`
   position: relative;
-  width: 45%;
-  height: 28rem;
+  width: 35%;
+  height: 30rem;
   z-index: 3;
 
   &::after {
@@ -43,7 +43,8 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     inset: 0 0 0 0;
     // background: rgb(13, 14, 14, 0.199);
-    background: rgb(13, 14, 14, 0.199);
+    background: rgb(13, 14, 14, 0.199);  
+    opacity: 0.8;
     z-index: 2;
   }
 

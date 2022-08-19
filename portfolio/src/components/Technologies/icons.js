@@ -11,10 +11,15 @@ import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 // import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from  "../../assets/technologies/visual-studio-code.svg";
-import redux from "../../assets/technologies/redux-icon.svg";
-// import chakra from "../../as/sets/technologies/chakra-ui.svg";
+import redux from  "../../assets/technologies/redux-icon.svg";
+import chakra from "../../assets/technologies/chakra-ui.jpg";
 
 export const iconsData = [
+  {
+    id: 11,
+    icon: git,
+    name: "Git",
+  },
   {
     id: 1,
     icon: html5,
@@ -51,31 +56,27 @@ export const iconsData = [
   //   icon: tailwindcss,
   //   name: "TailwindCSS",
   // },
-  {
-    id: 7,
-    icon: bootstrap,
-    name: "Bootstrap",
-  },
+  // {
+  //   id: 7,
+  //   icon: bootstrap,
+  //   name: "Bootstrap",
+  // },
   // {
   //   id: 8,
   //   icon: sass,
   //   name: "SASS",
   // },
-  {
-    id: 9,
-    icon: npm,
-    name: "Node Package Manager",
-  },
+  // {
+  //   id: 9,
+  //   icon: npm,
+  //   name: "Node Package Manager",
+  // },
   // {
   //   id: 10,
   //   icon: laravel,
   //   name: "PHP Laravel",
   // },
-  {
-    id: 11,
-    icon: git,
-    name: "Git",
-  },
+ 
   
   // {
   //   id: 13,
@@ -87,14 +88,14 @@ export const iconsData = [
   //   icon: adobexd,
   //   name: "Adobe XD",
   // },
-  {
-    id: 15,
-    icon: vscode,
-    name: "Visual Studio Code",
-  },
   // {
-  //   id: 16,
-  //   icon: chakra,
-  //   name: "Chakra ui",
+  //   id: 15,
+  //   icon: vscode,
+  //   name: "Visual Studio Code",
   // },
+  {
+    id: 16,
+    icon: chakra,
+    name: "Chakra ui",
+  },
 ];

@@ -61,7 +61,7 @@ const Footer = () => {
               LinkedIn
             </ContactLink>
             <ContactLink
-              href="https://medium.com/me/stories/public"
+              href="https://medium.com/@nirmalcool414"
               target="_blank"
               rel="noopener noreferrer"
             >
