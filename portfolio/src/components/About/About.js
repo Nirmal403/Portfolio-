@@ -23,24 +23,27 @@ const About = () => {
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
-        <AboutImageContainer >
-          <AboutImage  style={{}} src={myImage} />
+        <AboutImageContainer>
+          <AboutImage style={{}} src={myImage} />
         </AboutImageContainer>
         <AboutDetailsContainer>
+          {/* <StyledParagraph>
+            Currently pursuing full stack web development in Masai School. I am
+            a passionate full stack web developer based in India.
+          </StyledParagraph> */}
+         
           <StyledParagraph>
-            My name is Nirmal, currently pursuing full stack web development in
-            Masai School. I am a passionate full stack web developer based in India.
-          </StyledParagraph>
-          <StyledParagraph>
+            Skilled full stack developer and quick learner who possesses the
+            ability to adapt with new environments quickly. Looking for a
+            challenging role in industry to utilize my skills and learn.
             I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, React Js, Redux,
-            Bootstrap, Git and GitHub, Chakra UI and VS Code.
+            scratch. 
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+           The technologies, tools and languages I am using to build
+            my projects are HTML, CSS, JavaScript, React Js, Redux, Bootstrap,
+            Git and GitHub, Chakra UI and VS Code.   And I
+            am looking forward to talk with you!
           </StyledParagraph>
           <Resume>
             <ResumeLink

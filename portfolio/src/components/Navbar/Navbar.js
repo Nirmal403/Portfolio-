@@ -98,6 +98,20 @@ const Navbar = () => {
             Skills
           </StyledNavLinks>
         </NavList>
+        <NavList>
+          <StyledNavLinks
+            to="footer"
+            smooth={true}
+            duration={0}
+            delay={0}
+            spy={true}
+            spyThrottle={0}
+            exact="true"
+            offset={-85.26}
+          >
+            Contact
+          </StyledNavLinks>
+        </NavList>
         
         {/* <NavList>
           <StyledNavLinks

@@ -32,6 +32,9 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="technology" onClick={toggle}>
           Skills
         </MobileMenuLink>
+        <MobileMenuLink to="footer" onClick={toggle}>
+          Contact
+        </MobileMenuLink>
        
         {/* <MobileMenuLink to="playground" onClick={toggle}>
           Playground
