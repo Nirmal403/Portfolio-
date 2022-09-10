@@ -5,13 +5,16 @@ import {
   TechnologiesIcons,
   TechnologyIcon,
 } from "../styles/Technologies.styled";
+import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { iconsData } from "./icons";
 
 const Technologies = () => {
   return (
     <TechnologiesContainer id="technology">
-      <TechnologiesHeader>Technologies I am familiar with</TechnologiesHeader>
-
+      {/* <TechnologiesHeader>Technologies I am familiar with</TechnologiesHeader> */}
+      <SectionHeading>
+        <SectionTitle number="03">Technologies</SectionTitle>
+      </SectionHeading>
       <TechnologiesIcons>
         {iconsData.map((iconData) => {
           return (
