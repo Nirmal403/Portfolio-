@@ -34,7 +34,7 @@ export const projectData = [
     title: "Tripoto Clone",
     codeLink: "https://github.com/Nirmal403/Tripoto-clone",
     liveLink: "https://tripoto-nirmal403.vercel.app/",
-    techstack: ["HTML, CSS, Javascript, ReactJs, Redux"]
+    techstack: ["HTML, CSS, Javascript, ReactJs, Redux, Chakra UI"]
   },
   
 ];
