@@ -32,6 +32,7 @@ export const AboutImageContainer = styled.div`
     left: -1rem;
     // background: #fcdf3e;
     background: white;
+    
     width: 100%;
     height: 100%;
     border-radius: 1px;
@@ -43,16 +44,18 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     inset: 0 0 0 0;
     // background: rgb(13, 14, 14, 0.199);
-    background: rgb(13, 14, 14, 0.199);  
+    // background: rgb(13, 14, 14, 0.199);  
     opacity: 0.8;
     z-index: 2;
+    
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 100%;
     height: 20rem;
     margin-bottom: 1.75rem;
-
+    
+    
     &::after {
       content: "";
       top: -0.5rem;
@@ -67,6 +70,7 @@ export const AboutImage = styled.img`
   object-fit: scale-down;
   position: relative;
   border-radius: 1px;
+  
 `;
 
 export const AboutDetailsContainer = styled.div`
