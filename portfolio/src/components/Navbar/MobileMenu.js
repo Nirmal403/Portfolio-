@@ -23,12 +23,16 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="home" onClick={toggle}>
           Home
         </MobileMenuLink>
-        <MobileMenuLink to="projects" onClick={toggle}>
-          Projects
-        </MobileMenuLink>
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
+        <MobileMenuLink to="projects" onClick={toggle}>
+          Projects
+        </MobileMenuLink>
+        <MobileMenuLink to="technology" onClick={toggle}>
+          Skills
+        </MobileMenuLink>
+       
         {/* <MobileMenuLink to="playground" onClick={toggle}>
           Playground
         </MobileMenuLink> */}

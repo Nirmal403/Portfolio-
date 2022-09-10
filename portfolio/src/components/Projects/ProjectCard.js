@@ -17,6 +17,7 @@ const ProjectCardComponent = ({
   image,
   transitionImage,
   title,
+  techstack,
   codeLink,
   liveLink,
 }) => {
@@ -28,6 +29,12 @@ const ProjectCardComponent = ({
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
+            <br />
+            <ProjectTitle
+              style={{
+                lineHeight:"3rem"
+              }}
+            >Tech Stacks: {techstack}</ProjectTitle>
             <ProjectCodeLink
               href={codeLink}
               target="_blank"
@@ -36,6 +43,7 @@ const ProjectCardComponent = ({
               <GoMarkGithub />
               <LinkName>Github Code</LinkName>
             </ProjectCodeLink>
+            
             <ProjectLiveLink
               href={liveLink}
               target="_blank"

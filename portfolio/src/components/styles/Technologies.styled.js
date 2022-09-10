@@ -20,7 +20,13 @@ export const TechnologiesIcons = styled.div`
   gap: 1.5rem;
   margin-top: 3rem;
   // border: 1px solid red;
-  height: 5rem
+  height: 5rem;
+  @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    // border: 1px solid red;
+    width: 100%;
+    height: 5rem;
+    // flex-wrap: wrap;
+  }
 `;
 
 export const TechnologyIcon = styled.img`
