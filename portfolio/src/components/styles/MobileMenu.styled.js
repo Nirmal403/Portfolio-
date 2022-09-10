@@ -24,12 +24,15 @@ export const Icon = styled.div`
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  
+  
 `;
 
 export const CloseIcon = styled(closeIcon)`
   cursor: pointer;
   color: #fff;
   font-size: 1.75rem;
+  
 `;
 
 export const CloseText = styled.span``;
@@ -41,6 +44,7 @@ export const MobileMenuList = styled.ul`
   flex-direction: column;
   height: 100%;
   gap: 2rem;
+  
 `;
 
 export const MobileMenuLink = styled(MobileMenuNavLink)`
@@ -51,6 +55,7 @@ export const MobileMenuLink = styled(MobileMenuNavLink)`
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+  
 `;
 
 export const MobileButton = styled.a`

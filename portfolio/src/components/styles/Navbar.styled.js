@@ -27,6 +27,7 @@ export const StyledNavbar = styled.nav`
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     padding: 0 2.5rem;
+    
   }
 `;
 
@@ -41,9 +42,11 @@ export const NavMenuList = styled.ul`
   gap: 1.5rem;
   flex: 1;
   margin-left: 8rem;
-
+  
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;
+    
+    
   }
 `;
 
