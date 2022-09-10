@@ -11,8 +11,6 @@ export const AboutContent = styled.div`
   display: flex;
   gap: 5%;
   margin-top: 6.5rem;
-
-
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
     margin-top: 0;
@@ -24,14 +22,14 @@ export const AboutImageContainer = styled.div`
   width: 35%;
   height: 30rem;
   z-index: 3;
-
+  
   &::after {
     content: "";
     position: absolute;
     top: -1rem;
     left: -1rem;
     // background: #fcdf3e;
-    background: white;
+    // background: white;
     
     width: 100%;
     height: 100%;
@@ -65,18 +63,17 @@ export const AboutImageContainer = styled.div`
 `;
 
 export const AboutImage = styled.img`
-  width: 100%;
-  height: 90%;
+  width: 90%;
+  height: 97%;
   object-fit: scale-down;
   position: relative;
   border-radius: 1px;
-  
+  border-radius: 50%;
 `;
 
 export const AboutDetailsContainer = styled.div`
   position: relative;
   width: 50%;
-
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 100%;
   }
@@ -87,7 +84,8 @@ export const Resume = styled.div`
   margin-top: 3rem;
   position: relative;
   transition: 0.3s ease;
-
+  // border:1px solid red;
+  font-size:20px;
   &::after {
     content: "";
     display: block;
