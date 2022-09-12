@@ -49,7 +49,7 @@ const About = () => {
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resume-nirmal"
+              download="Nirmal_Resume"
             >
               Download Resume
             </ResumeLink>

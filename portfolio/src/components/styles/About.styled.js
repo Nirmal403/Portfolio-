@@ -41,7 +41,7 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     inset: 0 0 0 0;
     // background: rgb(13, 14, 14, 0.199);
-    // background: rgb(13, 14, 14, 0.199);  
+    background: rgb(13, 14, 14, 0.199);  
     opacity: 0.8;
     z-index: 2;
     border-radius:50%;
