@@ -15,7 +15,8 @@ export const projectData = [
     title: "PharmEasy Clone",
     codeLink: "https://github.com/ribhar/PharmEasy-clone",
     liveLink: "https://pharmeasyin.netlify.app/",
-    techstack: ["HTML,CSS,Javascript"]
+    techstack: ["HTML,CSS,Javascript"],
+    description: "PharmEasy is one of India's most trusted online pharmacy & medical stores offering pharmaceutical and healthcare products. A web application to buy medicines and book lab test appointments."
   },
   
   {
@@ -25,7 +26,8 @@ export const projectData = [
     title: "Freshly",
     codeLink: "https://github.com/Nirmal403/Freshly.git",
     liveLink: "https://graceful-belekoy-c9fe2f.netlify.app/index.html",
-    techstack: ["HTML,CSS,Javascript,ES6"]
+    techstack: ["HTML,CSS,Javascript,ES6"],
+    description:"Freshly is a healthy food app were you can able to order your favourite food dish via online.",
   },
   {
     id: 3,
@@ -34,7 +36,8 @@ export const projectData = [
     title: "Tripoto Clone",
     codeLink: "https://github.com/Nirmal403/Tripoto-clone",
     liveLink: "https://tripoto-nirmal403.vercel.app/",
-    techstack: ["HTML, CSS, Javascript, ReactJs, Redux, Chakra UI"]
+    techstack: ["HTML, CSS, Javascript, ReactJs, Redux, Chakra UI"],
+    description:"Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.",
   },
   
 ];

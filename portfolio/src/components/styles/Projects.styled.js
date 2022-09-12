@@ -30,13 +30,15 @@ export const ProjectsContainer = styled.div`
   justify-content: center;
   gap: 1.25rem;
   margin-top: 3rem;
+  // border:1px solid red;
 `;
 
 export const ProjectImage = styled.img`
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: cover;
   position: relative;
+  // border:1px solid red;
 `;
 
 export const ProjectTransitionImage = styled.img`
@@ -109,15 +111,15 @@ export const ProjectLiveLink = styled.a`
 
 export const ProjectCard = styled.article`
   background: #fff;
-  width: 32rem;
-  height: 23rem;
+  width: 30rem;
+  height:26rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 
   &::after {
     content: "";

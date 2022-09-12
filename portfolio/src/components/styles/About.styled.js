@@ -30,7 +30,6 @@ export const AboutImageContainer = styled.div`
     left: -1rem;
     // background: #fcdf3e;
     // background: white;
-    
     width: 100%;
     height: 100%;
     border-radius: 1px;
@@ -45,7 +44,9 @@ export const AboutImageContainer = styled.div`
     // background: rgb(13, 14, 14, 0.199);  
     opacity: 0.8;
     z-index: 2;
-    
+    border-radius:50%;
+    width: 90%;
+    height: 97%;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {

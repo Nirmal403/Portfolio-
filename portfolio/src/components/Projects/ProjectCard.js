@@ -18,6 +18,7 @@ const ProjectCardComponent = ({
   transitionImage,
   title,
   techstack,
+  description,
   codeLink,
   liveLink,
 }) => {
@@ -26,6 +27,8 @@ const ProjectCardComponent = ({
       <IconContext.Provider value={{ size: "1rem" }}>
         <ProjectCard>
           <ProjectImage src={image} alt={title} />
+          <h2>{title}</h2>
+          <p>{description}</p>
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
