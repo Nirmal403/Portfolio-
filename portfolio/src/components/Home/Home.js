@@ -27,7 +27,7 @@ const Home = () => {
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
         <Name>Nirmal</Name>
-        <Title>Full Stack Web Developer</Title>
+        <Title>Frontend Web Developer</Title>
         <p>
           I <span className="change-text"></span>{" "}
           <span className="responsive">r</span>
@@ -82,7 +82,7 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            href="mailto:nirmalcool414@gmail.com"
+            href="mailto:nirmalwebdev@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

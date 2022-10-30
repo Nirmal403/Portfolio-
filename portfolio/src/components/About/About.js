@@ -34,7 +34,7 @@ const About = () => {
           </StyledParagraph> */}
          
           <StyledParagraph>
-            Skilled full stack developer and quick learner who possesses the
+            Skilled Frontend developer and quick learner who possesses the
             ability to adapt with new environments quickly. Looking for a
             challenging role in industry to utilize my skills and learn.
             I love to design and create responsive websites or web apps from

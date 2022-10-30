@@ -32,7 +32,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-           href="mailto:nirmalcool414@gmail.com"
+           href="mailto:nirmalwebdev@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
@@ -71,8 +71,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            nirmalcool414@gmail.com
+          <ContactLink href="mailto:nirmalwebdev@gmail.com">
+            nirmalwebdev@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
