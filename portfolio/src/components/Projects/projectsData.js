@@ -13,8 +13,8 @@ export const projectData = [
     image: project1Laptop,
     transitionImage: project1Mobile,
     title: "PharmEasy Clone",
-    codeLink: "https://github.com/ribhar/PharmEasy-clone",
-    liveLink: "https://pharmeasyin.netlify.app/",
+    codeLink: "https://github.com/Nirmal403/PharmEasy",
+    liveLink: "https://pharm-easy-beta.vercel.app/",
     techstack: ["HTML,CSS,Javascript"],
     description: "PharmEasy is one of India's most trusted online pharmacy & medical stores offering pharmaceutical and healthcare products. A web application to buy medicines and book lab test appointments."
   },
