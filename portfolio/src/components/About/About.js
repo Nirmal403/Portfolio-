@@ -34,18 +34,14 @@ const About = () => {
           </StyledParagraph> */}
          
           <StyledParagraph>
-            Skilled Frontend developer and quick learner who possesses the
-            ability to adapt with new environments quickly. Looking for a
-            challenging role in industry to utilize my skills and learn.
-            I love to design and create responsive websites or web apps from
-            scratch. 
+          Motivated and skilled Front-End Web Developer with over 1.6 years of experience in translating UI/UX designs into efficient and visually appealing web applications. Proficient in HTML5, CSS3, and JavaScript frameworks such as ReactJs and Redux workflow. Adept at collaborating with cross-functional teams and implementing best practices in software development. Seeking an opportunity to contribute to a challenging project within asupportive and innovative working environment.
           </StyledParagraph>
-          <StyledParagraph>
+          {/* <StyledParagraph>
            The technologies, tools and languages I am using to build
             my projects are HTML, CSS, JavaScript, React Js, Redux, Bootstrap,
             Git and GitHub, Chakra UI and VS Code.   And I
             am looking forward to talk with you!
-          </StyledParagraph>
+          </StyledParagraph> */}
           <Resume>
             <ResumeLink
               href={resume}
